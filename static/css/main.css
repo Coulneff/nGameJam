@@ -49,18 +49,18 @@ nav img {
     align-items: center;
     display: flex;
     flex-wrap: wrap;
-    font-size: 1vw;
 }
 
 .buttons button {
-    width: 25vw;
+    width: 15vw;
     background-color: #d80808;
     color: white;
     border: none;
-    padding: 10px 20px;
-    margin: 10px 5px;
+    padding: 5px 10px;
+    margin: 5px 5px;
     cursor: pointer;
-    border-radius: 8px;
+    border-radius: 1vw; 
+    font-size: 2vw;
 }
 
 .buttons button:hover {
