@@ -51,6 +51,7 @@ nav img {
     align-items: center;
     display: flex;
     flex-wrap: wrap;
+    font-size: 1vw;
 }
 
 .buttons button {
@@ -83,8 +84,9 @@ nav img {
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: calc(120% / 8  );
-    max-width: 300px;
+    /*width: calc(120% / 8  ); */
+    width: calc(35% + (11 - 10) * ((100vw - 800px) / (1920 - 800))); 
+    max-width: 15vw; 
     padding: 10px;
     text-align: left;
     transition: transform 0.2s;
@@ -98,7 +100,8 @@ nav img {
 }
 
 .project-card img {
-    width: 65%;
+    /*width: 65%;*/
+    width: calc(25% + (11 - 10) * ((100vw - 800px) / (1920 - 800)));
     height: auto;
     object-fit: cover;
     border-radius: 5px; 
@@ -115,7 +118,7 @@ nav img {
     align-items: center;
     justify-content: center; /*центрируем элемент по горизонтали */
     margin: 5px 0;
-    font-size: calc(16px + (11 - 10) * ((100vw - 800px) / (1920 - 800)));
+    font-size: calc(14px + (11 - 9) * ((90vw - 800px) / (1920 - 800)));
 }
 
 .project-card p {
@@ -136,6 +139,9 @@ nav img {
     margin-left: 20px;
     transition: transform 0.2s;
 }
+ 
+
+ 
 
 @media (max-width: 768px) {
     .project-card {
@@ -148,6 +154,7 @@ nav img {
         width: calc(100% - 30px);
     }
 }
+
 
 @media (max-width: 480px) {
     .project-card {
