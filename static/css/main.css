@@ -45,14 +45,16 @@ nav img {
     text-decoration-thickness: 10px;
 }
 
-.buttons {
-    margin-left: auto;
+.buttons { 
+    justify-content: center;
+    display: flex;
+    align-items: center;
     display: flex;
     flex-wrap: wrap;
 }
 
 .buttons button {
-    background-color: #0282fa;
+    background-color: #d80808;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -101,9 +103,17 @@ nav img {
     object-fit: cover;
     border-radius: 5px; 
     justify-content: center; /*центрируем элемент по горизонтали */
+    text-align: center;
+    align-items: center;
+
+    display: block;
+    margin: 0 auto;
 }
 
 .project-card h3 {
+    text-align: center;
+    align-items: center;
+    justify-content: center; /*центрируем элемент по горизонтали */
     margin: 5px 0;
     font-size: calc(16px + (11 - 10) * ((100vw - 800px) / (1920 - 800)));
 }
@@ -115,7 +125,7 @@ nav img {
 .projects-header {
     display: flex;
     align-items: center;
-    justify-content: left;
+    justify-content: center;
     padding-left: 20px;
     flex-wrap: wrap;
 }
