@@ -22,9 +22,7 @@ nav {
 }
 
 nav img {
-    height: 120px;
-    margin-right: 5px;
-    padding-left: 20px;
+    height: 15vw; /*120px*/  
 }
 
 .nav-links {
@@ -55,6 +53,7 @@ nav img {
 }
 
 .buttons button {
+    width: 25vw;
     background-color: #d80808;
     color: white;
     border: none;
@@ -74,6 +73,7 @@ nav img {
 }
 
 .projects {
+    width: 100vw;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -86,7 +86,7 @@ nav img {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     /*width: calc(120% / 8  ); */
     width: calc(35% + (11 - 10) * ((100vw - 800px) / (1920 - 800))); 
-    max-width: 15vw; 
+    max-width: 25vw; 
     padding: 10px;
     text-align: left;
     transition: transform 0.2s;
@@ -101,8 +101,8 @@ nav img {
 
 .project-card img {
     /*width: 65%;*/
-    width: calc(25% + (11 - 10) * ((100vw - 800px) / (1920 - 800)));
-    height: auto;
+    width: 5vw;  /*calc(5vw + (11 - 10) * ((100vw - 800px) / (1920 - 800)));*/
+    height: 5vw; /*auto;*/
     object-fit: cover;
     border-radius: 5px; 
     justify-content: center; /*центрируем элемент по горизонтали */
@@ -118,11 +118,11 @@ nav img {
     align-items: center;
     justify-content: center; /*центрируем элемент по горизонтали */
     margin: 5px 0;
-    font-size: calc(14px + (11 - 9) * ((90vw - 800px) / (1920 - 800)));
+    font-size: 2vw; /*calc(14px + (11 - 9) * ((90vw - 800px) / (1920 - 800)));*/
 }
 
 .project-card p {
-   font-size: calc(13px + (13 - 10) * ((100vw - 800px) / (1920 - 800)));
+   font-size: 2vw; /* calc(13px + (13 - 10) * ((100vw - 800px) / (1920 - 800)));*/
 }
 
 .projects-header {
