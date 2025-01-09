@@ -118,7 +118,8 @@ nav img {
     align-items: center;
     justify-content: center; /*центрируем элемент по горизонтали */
     margin: 5px 0;
-    font-size: 2vw; /*calc(14px + (11 - 9) * ((90vw - 800px) / (1920 - 800)));*/
+    font-size: calc(2vw + (11 - 9) * ((90vw - 800px) / (1920 - 800))); 
+    /*font-size: 2vw; calc(14px + (11 - 9) * ((90vw - 800px) / (1920 - 800)));*/
 }
 
 .project-card p {
